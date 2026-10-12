@@ -26,11 +26,12 @@
     <!-- Flag indicating whether the device supports RTT (real-time text) -->
     <bool name="config_support_rtt">true</bool>
 
-	<!-- String indicating the package name of the device ImsService implementation for MMTEL. -->
-    <string name="config_ims_mmtel_package" translatable="false">org.codeaurora.ims</string>
+    <!-- Prefer the platform IMS implementation instead of the QTI package that is
+         incompatible with the current framework. -->
+    <string name="config_ims_mmtel_package" translatable="false">com.android.ims</string>
 
     <!-- String indicating the package name of the device ImsService implementation for RCS. -->
-    <string name="config_ims_rcs_package" translatable="false">vendor.qti.imsrcs</string>
+    <string name="config_ims_rcs_package" translatable="false">com.android.ims</string>
 
     <!-- The package name for the platform number verification supplier app. -->
     <string name="platform_number_verification_package" translatable="false">com.google.android.gms</string>

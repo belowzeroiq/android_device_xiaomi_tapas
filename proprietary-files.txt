@@ -565,7 +565,6 @@ product/etc/displayconfig/display_id_4630946444529356673.xml:vendor/etc/displayc
 product/etc/displayconfig/display_id_4630946914797301377.xml:vendor/etc/displayconfig/display_id_4630946914797301377.xml
 vendor/bin/hw/vendor.display.color@1.0-service
 vendor/bin/init.qti.display_boot.sh
-vendor/bin/hw/vendor.qti.hardware.display.composer-service
 vendor/bin/ppd
 vendor/bin/qdcmss
 vendor/etc/display/advanced_sf_offsets.xml

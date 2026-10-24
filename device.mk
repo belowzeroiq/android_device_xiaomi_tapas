@@ -631,6 +631,12 @@ PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
 
+# Axion
+TARGET_DISABLES_LIBPERF ?= false
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/kernel/ax_kernel_manager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ax_kernel_manager.xml
+
 # Vendor MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/tapas-miuicamera/device.mk)
 
